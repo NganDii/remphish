@@ -1,0 +1,42 @@
+
+
+.common_header_divnav_diy_text{
+    width: 100px;
+    height: 50px;
+    background-color: #0beaff;
+}
+
+
+/*
+	Name:			mod_diy_button
+	Level:			Fuction
+	Explain:		页面头部的 DIY 按钮
+	Last Modify:	Pony 1207021442
+*/
+#diy-tg {
+    float: right;
+    padding: 0 !important;
+    width: 56px;
+    overflow: hidden;
+}
+
+
+#diy-tg_menu {
+    position: absolute;
+    margin: -2px 0 0 -1px;
+    padding: 6px 0;
+    width: 100px;
+    height: 48px;
+    line-height: 24px;
+    text-align: center;
+    background-color: #05a4ff;
+}
+
+#diy-tg_menu a {
+    float: none !important;
+}
+
+
+#toptb #diy-tg_menu {
+    margin: -7px 0 0 -17px;
+}
