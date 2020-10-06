@@ -1,3 +1,6 @@
+apt install curl -y
+apt install jq
+apt install php
 #DELETING Ngrok
 rm -rf ~/remphish/fb/ngrok
 rm -rf ~/remphish/insta/ngrok
